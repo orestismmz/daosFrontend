@@ -1,0 +1,48 @@
+/* Container for label and input */
+.inputTextContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px; /* Spacing between label and input */
+}
+
+.label {
+  font-family: "Montserrat", sans-serif; /* Optional for consistency */
+  font-size: 16px;
+  color: #aaaaaa;
+  margin-left: 5px;
+}
+
+/* Input field styles */
+.input {
+  width: 324px;
+  height: 50px; /* Matches default secondary button height */
+  padding: 0 10px; /* Adds padding for placeholder alignment */
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif; /* Optional for consistency */
+  border: 1px solid #dddddd; /* Matches secondary button border */
+  border-radius: 10px; /* Matches button border-radius */
+  background-color: #ffffff; /* Matches secondary button background */
+  color: #353a5d; /* Matches secondary button text color */
+  box-shadow: 0px 2px 4px #00000029; /* Same shadow as secondary button */
+  transition: border-color 0.2s ease;
+
+  /* Placeholder styling */
+  ::placeholder {
+    color: #aaaaaa; /* Light gray placeholder color */
+    font-size: 16px;
+    padding-left: 5px; /* Adjust left alignment */
+  }
+}
+
+/* Input focus styles */
+.input:focus {
+  outline: none;
+  border-color: #4a4e6e; /* Slightly darker border on focus */
+}
+
+.span {
+  font-size: 16px;
+  color: #bf1e2e;
+  font-family: "Montserrat", sans-serif;
+  max-width: 324px;
+}
